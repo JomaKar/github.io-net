@@ -1,0 +1,303 @@
+
+////////////////////////////////////////Grilla
+#first{
+	background: red;
+
+}
+
+.active0{
+	background: #FF6632;
+}
+
+.active1 {
+  background: none;
+   transition: all 500ms linear;
+}
+
+.purple{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.inactive1{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.mora{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.blue1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.blueber{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.aqua1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.alga{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.grass1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.eyes{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.green1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.greenghost{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.leave1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.paleyel{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.yelloww1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.egg{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.yellow1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.paleora{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.orange1{
+	background: none;
+	 transition: all 500ms linear;
+}
+
+.carmesi{
+  background: none;
+   transition: all 500ms linear;
+}
+
+.red1{
+	background: none;
+	transition: all 500ms linear;
+
+}
+
+.morado{
+  background: none;
+   transition: all 500ms linear;
+}
+.midmora{
+  background: none;
+   transition: all 500ms linear;
+}
+
+////////////////////////hover
+
+.active1:hover {
+  background: #ff00fc;
+}
+
+.purple:hover{
+  background: #B400FF;
+}
+
+.inactive1:hover{
+  background: #8400ff;
+}
+
+.mora:hover{
+  background: #ff00fc;
+}
+.blue1:hover{
+	background: #6300FF;
+}
+
+.blueber:hover{
+  background: #0068FF;
+}
+
+.aqua1:hover{
+	background: #00e4ff;
+}
+.alga:hover{
+  background: #00FFCE;
+}
+
+.grass1:hover{
+	background: #00ff8a;
+}
+.eyes:hover{
+  background: #00FFCE;
+}
+
+.green1:hover{
+	background: #00ff00;
+}
+.greenghost:hover{
+  background: #7DFF00;
+}
+.leave1:hover{
+	background: #c6ff00;
+}
+.paleyel:hover{
+  background: #E0FF00;
+}
+.yelloww1:hover{
+	background: #fff600;
+}
+.egg:hover{
+  background: #FFE600;
+}
+.yellow1:hover{
+	background: #ffde00;
+}
+.paleora:hover{
+  background: #FFBE00;
+}
+.orange1:hover{
+	background: #ffa200;
+}
+.carmesi:hover{
+  background: #FF6400;
+}
+.red1:hover{
+	background: #ff3c00;
+}
+.morado:hover{
+  background: #C800CA;
+}
+.midmora:hover{
+  background: #9000FC;
+}
+
+
+h4{
+	font-size: 13px;
+	text-align: center;
+	margin: 15% 0;
+	height: 100%;
+}
+
+///////////////////////////////////////////////background
+
+
+body {
+
+background:#ff0000;
+  transition: all 3s linear;
+}
+
+body.active {
+  background: #ff00fc;
+   transition: all 3s linear;
+}
+
+body.inactive {
+  background: #8400ff;
+   transition: all 3s linear;
+}
+
+body.blue{
+	background: #0030ff;
+	 transition: all 3s linear;
+}
+
+body.aqua{
+	background: #00e4ff;
+	 transition: all 3s linear;
+}
+
+body.grass{
+	background: #00ff8a;
+	 transition: all 3s linear;
+}
+
+body.green{
+	background: #00ff00;
+	 transition: all 3s linear;
+}
+
+body.leave{
+	background: #c6ff00;
+	 transition: all 3s linear;
+}
+
+body.yelloww{
+	background: #fff600;
+	 transition: all 3s linear;
+}
+
+body.yellow{
+	background: #ffde00;
+	 transition: all 3s linear;
+}
+body.orange{
+	background: #ffa200;
+	 transition: all 3s linear;
+}
+body.red{
+	background: #ff3c00;
+	transition: all 3s linear;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
