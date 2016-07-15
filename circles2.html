@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Appending content</title>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	
+
+	<style type="text/css">
+
+	.a1{
+		height: 400px;
+		border-radius: 200px;
+		width: 400px;
+		background: red;
+		position: absolute;
+		top:150px;
+		left: 350px;
+		z-index: 10000;
+
+	}
+	.a2{
+		position: absolute;
+		background: #D72FD4;
+		width:10px;
+		height:10px;
+		top: 350px;
+		left: 550px;
+	}
+	.but{
+		position: absolute;
+		top: 570px;
+		left: 540px;
+
+	}
+
+	body{
+		height: 900px;
+		background: blue;
+	}
+
+	</style>
+</head>
+
+<body>
+
+<div class="a1"></div>
+
+
+<script type="text/javascript">
+	
+
+$(function(){
+
+var cir= $('.a1').eq(0);
+var btn = $('<button class="but">hi</button>');
+var bd= $('body');
+var n = 2;
+var i = 0;
+
+
+	$.fn.colors = function(i,fn){
+		var esto = $(this);
+		var he = 40000;
+		var h = 3000;
+		var color= ['#60BEC0','#7A0D0D','#28004F','#4F3410','#6D40AD','#358001','#23205B','#5B2E00','#827054','#1F6582','#274017','red','green','blue','black','purple','orange','#64FFE8','#C018B9','#FFDF1E','#FF83E0'];
+console.log(he);
+		
+		for (var o = 0; i < he; o++) {
+				setTimeout(function(){
+					console.log(he);
+					console.log(h);
+					console.log(i);
+
+							esto.css('background', color[i]);
+								i++;
+
+
+					if(i>= color.length){
+							i = 0;
+						}
+
+						},h);
+				h+=3000;
+				he--;
+		}
+		// while(he > 0){
+
+			// }
+		}	
+
+cir.after(btn);
+bd.colors(i+3);
+
+	cir.click(
+		function(){
+
+
+			$(this).animate({
+				width:'toggle',
+				height:'toggle',
+				top: '+=200px',
+				left:'+=200px'
+			})
+
+
+		})
+
+var w = 500;
+var t= 100;
+var l= 300;
+
+	btn.click(function(){
+
+
+			cir.colors(i+1);
+				cir.animate({
+				width:'toggle',
+				height:'toggle',
+				top: '-=200px',
+				left:'-=200px'
+			},500)
+				if(n<=21){
+					cir.after('<div id="a'+n+'" class="a2"></div>');
+					$('#a'+n).animate({
+						top:t,
+						left: l,
+						'border-radius':w/2,
+						width:w,
+						height:w
+					},500);
+
+					$('#a'+n).colors(i+2);	
+
+					n++;
+					w+=100;	
+					t-=50;
+					l-=50;
+				}
+
+				
+	})
+
+})
+
+
+</script>
+</body>
+</html>
