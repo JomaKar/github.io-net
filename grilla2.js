@@ -1,5 +1,5 @@
 
-$(function(){
+(function(){
 
 var color=['active','inactive','blue','aqua','grass','green','leave','yelloww','yellow','orange','red','inactive','active'];
 
@@ -252,5 +252,5 @@ for (var j = 0; j <= 26; j++) {
 		}
 
 }
-});
+})();
 
