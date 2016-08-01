@@ -213,10 +213,14 @@ h4{
 
 ///////////////////////////////////////////////background
 
+.container{
+	padding: 0px;
+}
 
 body {
 
 background:#ff0000;
+margin: 0px;
   transition: all 3s linear;
 }
 
